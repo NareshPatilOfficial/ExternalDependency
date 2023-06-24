@@ -4,11 +4,11 @@ import { Button } from 'react-bootstrap';
 class CustomButton extends React.Component {
     render(){
         const {children} = this.props;
-        return <div>
+        return (<div>
             <Button>
                 {children}
             </Button>
-        </div>
+        </div>)
     }
 }
 
