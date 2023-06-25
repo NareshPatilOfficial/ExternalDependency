@@ -12,14 +12,6 @@ const commonPlugins = [
 ];
 
 module.exports = {
-  "env": {
-    "es": {
-      "plugins": ["@babel/plugin-transform-runtime"],
-      "presets": ["@babel/preset-react"]
-    },
-    "commonjs": {
-      "presets": ["@babel/preset-react"]
-    },
-  },
+  presets: ["@babel/env", "@babel/preset-react"],
   plugins: [...commonPlugins]
 }
