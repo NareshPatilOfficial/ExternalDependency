@@ -6,11 +6,7 @@
   "scripts": {
     "dev": "webpack-dev-server",
     "start": "cross-env NODE_ENV=development npm run dev",
-    "build": "webpack",
-    "build:es": "npm run clean:es && cross-env BABEL_ENV=es babel src --out-dir dist/es --ignore src/App.js,src/entry.js",
-    "build:umd": "npm run clean:umd && webpack --config webpack.config.umd.js --bail",
-    "clean:es": "rimraf dist/es",
-    "clean:umd": "rimraf dist/umd"
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",

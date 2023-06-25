@@ -1,5 +1,5 @@
 import React from 'react';
-import CustomButton from './CustomButton';
+import CustomButton from 'src/components/CustomButton';
 
 const App = () => {
     return <div>

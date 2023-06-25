@@ -16,7 +16,10 @@ module.exports = {
     "es": {
       "plugins": ["@babel/plugin-transform-runtime"],
       "presets": ["@babel/preset-react"]
-    }
+    },
+    "commonjs": {
+      "presets": ["@babel/preset-react"]
+    },
   },
   plugins: [...commonPlugins]
 }
