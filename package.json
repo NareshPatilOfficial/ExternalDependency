@@ -5,7 +5,7 @@
   "private": true,
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
-  "source": "src/App.js",
+  "source": "src/components/CustomButton.js",
   "scripts": {
     "npdev": "webpack-dev-server",
     "npstart": "cross-env NODE_ENV=development npm run npdev",

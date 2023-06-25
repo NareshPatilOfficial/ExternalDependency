@@ -125,8 +125,4 @@ var CustomButton = /*#__PURE__*/function (_React$Component) {
   return CustomButton;
 }(React.Component);
 
-var App = function App() {
-  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(CustomButton, null, "My Button"));
-};
-
-module.exports = App;
+module.exports = CustomButton;
